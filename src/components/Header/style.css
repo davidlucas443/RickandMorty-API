@@ -1,0 +1,19 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 35px;
+  background-color: var(--color-primary);
+  
+}
+
+.header-wrapper a {
+  display: flex;
+  align-items: center ;
+  gap: 15px;
+  color: var(---color-secondary);
+}
+.header-wrapper a span{
+  font-size: 20px;
+  font-weight: bold;
+}
