@@ -1,0 +1,22 @@
+.section-characters {
+  background-color: var(--color-l-black);
+  padding: 40px 118px;
+}
+
+.section-characters h2 {
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-characters h2 span {
+  color: var(--color-primary);
+} 
+
+.container-cards-characters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
