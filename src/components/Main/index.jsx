@@ -5,7 +5,7 @@ import '../Main/styles.css';
 export const Main = () => {
   return (
     <main>
-      <div>
+      <div className="container-ilustration">
         <img src={ilustrationRick} alt="Ilustração de Rick" />
       </div>
       <div className="content-main">

@@ -1,33 +1,35 @@
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 191px;
-    background-color: var(--color-secondary);
-    padding: 100px 0;
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 191px;
+  background-color: var(--color-black);
+  padding: 100px 0;
 }
 
-.content-main {
+.content-main{
   display: flex;
   flex-direction: column;
   gap: 25px;
-}
-
-.content-main h1 {
-  font-size: 48px;
-  color: var(--color-white);
-}
-
-.content-main h1 span {
-  color: var(--color-primary);
-}
-.content-main p {
-  font-size: 18px;
-  color: var(--color-white);
   width: 587px;
 }
 
-.container-btn-main {
+.content-main h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color-white)
+}
+
+.content-main h1 span{
+  color: var(--color-primary);
+}
+
+.content-main p{
+  font-size: 20px;
+  color: var(--color-white);
+}
+
+.container-btn-main{
   display: flex;
   gap: 20px;
-}
+} 
